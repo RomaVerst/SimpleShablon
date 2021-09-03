@@ -1,0 +1,321 @@
+@charset "utf-8";
+@media screen and (max-width:1000px) {
+    .for_flex {
+        flex-wrap: wrap;
+    }
+    .flex_buy {
+        flex: 0 1 70%;
+    }
+}
+@media (max-width:599px) {
+	header h1 {
+		font-size: 40px !important;
+	}
+    .reviews img {
+        margin-left: 20%;
+        float: none !important;
+        width: 60% !important;
+    }
+    .text_for_avatar::before {
+        left: 50% !important;
+        top: -10px !important;
+    }
+    .text_for_avatar {
+        margin-top: 15px !important;
+        float: none !important;
+        width: 100% !important;
+    }
+}
+@media (max-width:400px) {
+    .screen .screen_img {
+        float: none !important;
+        width: 80% !important;
+        min-height: 50px !important;
+        margin-left: 10% !important;
+    }
+    .screen .for_image {
+        float: none !important;
+        width: 100% !important;
+    }
+}
+@media (max-width:449px) {
+    .dignity li {
+        background: url(Images/plus%20icon.png) no-repeat 50% 30px !important;
+        padding-top: 70px;
+        padding-left: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .dignity  {
+        padding: 10px !important;
+    }
+} 
+header {
+    width: 100%;
+    background: url(Images/leather.png) rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    padding: 50px 3.9%;
+}
+.container {
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 60px;
+    padding: 0;
+    margin: 0 0 50px;
+}
+.proparity_product li {
+    font-size: 20px;
+    list-style-image: url(Images/check%20icon.png);
+}
+.right_header video {
+    object-fit: cover;
+    border: 20px solid rgba(0,122,150,0.3);
+    background-clip: border-box;
+    border-radius: 50px;
+    width: 100%;
+}
+.left_header {
+    color: white;
+}
+main {
+    width: 100%;
+}
+.about {
+    background: linear-gradient(to top, rgba(242,242,242,0.8) 5%, rgba(136,128,0,0.3) 50%, rgba(0,0,0,0.7) 100%);
+    padding: 50px;
+}
+.description {
+    color:  #445161;
+}
+section h2 {
+    color:  #445161;
+}
+section .img_about {
+    width: 430px;
+    height: 245px;
+    background: rgba(68, 81, 97, 0.8) url(Images/iphone_apple_iphone_6s.jpg) center 64%;
+    background-blend-mode: multiply;
+    background-size: cover;
+    opacity: 0.8;
+}
+.dignity  {
+    padding: 50px;
+    background: #F2F2F2;
+}
+.dignity h2 {
+    text-align: center;
+    margin-bottom: 19px;
+}
+.dignity li {
+    list-style: none;
+    background: url(Images/plus%20icon.png) no-repeat 0 5px;
+    padding-left: 40px;
+    margin-bottom: 35px;
+}
+.screen .screen_img {
+    background: rgba(58, 47, 144, 0.6) url(Images/Iphone-Iphone-X-Mobile.jpg) no-repeat 50%;
+    background-blend-mode: multiply;
+    background-size: contain;
+    border-radius: 10%;
+    width: 30%;
+    height: 150px;
+    float: left;
+    margin:15px 5% 0 0;
+}
+.screen h3 {
+    color:  #445161;
+}
+.screen .for_image {
+    float: right;
+    width: 65%;
+}
+.screen {
+    clear: both;
+    margin-bottom: 60px;
+}
+.screenshots {
+    padding: 50px;
+}
+.screenshots h2 {
+    text-align: center;
+}
+.reviews {
+  background-color: #F2F2F2;
+  padding: 50px;
+}
+.reviews h2 {
+     text-align: center;
+     margin-bottom: 35px;
+}
+.reviews img {
+    border-radius: 100%;
+    float: left;
+}
+.text_for_avatar {
+    float: right;
+    width: 80%;
+    padding: 16px;
+    background-color: #E9E9E9;
+    position: relative;
+    border-radius: 5px;
+}
+.text_for_avatar footer {
+    color: #989898;
+}
+.citata {
+    clear: both;
+}
+.text_for_avatar::before {
+  content:'';
+  width:20px;
+  height:20px;
+  background-color: #E9E9E9;
+  position:absolute;
+  left:-10px;
+  top:25px;
+  transform:rotate(45deg);
+}
+.buy h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.for_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.flex_buy {
+    color: white;
+    background-color: #414F61;
+    margin-bottom: 5%;
+	border-radius: 5px;
+}
+.flex_buy h3 {
+    text-align: center;
+    margin: 7%;
+    font-size: 24px;
+}
+.flex_buy ol, a {
+    margin-top: 3%;
+}
+.flex_buy ol {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-right: 7%;
+}
+#price {
+    width: 99%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #445162;
+    background-color: white;
+    text-align: center;
+}
+.flex_buy a {
+    display: inline-block;
+    width: 86%;
+    color: #445161;
+    font-size: 18px;
+    font-family: Arial;
+    text-transform: uppercase;
+    background-color: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    height: 40px;
+    margin-left: 7%;
+    margin-bottom: 7%;
+}
+.flex_buy a:hover {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-decoration: none;
+}
+.end {
+    width: 100%;
+    background-color: #435061;
+}
+.contacts {
+    color: white;
+    padding: 20px 10%;
+}
+.contacts h2 {
+    text-align: center;
+}
+form i {
+    border: 1px white solid;
+    border-radius: 10px;
+    padding: 10px;
+	box-shadow: inset 0px 0px 5px 3px rgba(255,255,255,0.8);
+}
+form input[type="text"], input[type="email"] {
+    width: 87%;
+}
+form input[type="text"], input[type="email"], textarea {
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: rgba(255,255,250,0.6);
+    outline: none;
+}
+form textarea{
+    height: 140px;
+    width: 98%;
+}
+form input[type="text"], input[type="email"] {
+    height: 40px;
+}
+form input, textarea {
+    margin-top: 5%;
+}
+form input[type="submit"] {
+    width: 140px;
+    color:  #445162;
+    text-transform: uppercase;
+    margin-left: 30%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    color: aliceblue;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+#bottom_of_site address {
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 16px;
+    line-height: 40px;
+}
+#bottom_of_site address i {
+    margin-right: 2%;
+}
+#bottom_of_site address i:hover {
+    text-shadow: 3px 2px 2px black;
+    cursor: pointer;
+}
+.copyright {
+    background-color: white;
+    color: #445162;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
